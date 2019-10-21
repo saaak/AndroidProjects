@@ -1,8 +1,6 @@
 package com.example.myapplication;
 
-import android.nfc.Tag;
 import android.os.Bundle;
-import android.app.Activity;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
@@ -10,77 +8,48 @@ import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.util.Log;
-import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-
-    private static final String TAG = "LIFTCYCLE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.i(TAG,"(1)oncreate()");
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
-        Button button = (Button)findViewById(R.id.btn_finish);
-        button.setOnClickListener(new View.OnClickListener() {
+        FloatingActionButton fab = findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                finish();
+            public void onClick(View view) {
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
             }
         });
     }
 
     @Override
-    public void onStart(){
-        super.onStart();
-        Log.i(TAG,"(2)onStart");
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
     }
 
     @Override
-    public void onRestoreInstanceState(Bundle saveInstanceState){
-        super.onRestoreInstanceState(saveInstanceState);
-        Log.i(TAG,"(3)onRestoreInstanceState");
-    }
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
 
-    @Override
-    public void onResume(){
-        super.onResume();
-        Log.i(TAG,"(4)onResume");
-    }
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }
 
-    @Override
-    public void onSaveInstanceState(Bundle saveInstanceState){
-        super.onSaveInstanceState(saveInstanceState);
-        Log.i(TAG,"(5)onSaveInstaceState");
-    }
-
-    @Override
-    public void onRestart() {
-        super.onRestart();
-        Log.i(TAG,"(6)onRestart");
-    }
-
-    @Override
-    public void onPause(){
-        super.onPause();
-        Log.i(TAG,"(7)onPause()");
-    }
-
-    @Override
-    public void onStop(){
-        super.onStop();
-        Log.i(TAG,"(8)onStop()");
-    }
-
-    @Override
-    public void onDestroy(){
-        super.onDestroy();
-        Log.i(TAG,"(9)onDestroy");
+        return super.onOptionsItemSelected(item);
     }
 }
