@@ -41,7 +41,8 @@ public class MathService extends Service {
     @Nullable
     @Override
     public IBinder onBind(Intent intent) {
-        Toast.makeText(this,"本地绑定：MathService",Toast.LENGTH_LONG);
+        System.out.println(1111);
+        Toast.makeText(this,"本地绑定：MathService",Toast.LENGTH_LONG).show();
         return binder;
     }
 
@@ -59,8 +60,9 @@ public class MathService extends Service {
      */
     @Override
     public boolean onUnbind(Intent intent) {
-        Toast.makeText(this,"取消本地绑定：MathService",Toast.LENGTH_LONG);
-        return super.onUnbind(intent);
+        System.out.println(222);
+        Toast.makeText(this,"取消本地绑定：MathService",Toast.LENGTH_LONG).show();
+        return false;
     }
 
     public long add(long a , long b){

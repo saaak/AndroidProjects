@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/problem"
+        android:layout_width="327dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/A"
+        android:layout_width="329dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/problem" />
+
+    <TextView
+        android:id="@+id/B"
+        android:layout_width="329dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="116dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/problem" />
+
+    <TextView
+        android:id="@+id/C"
+        android:layout_width="329dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="192dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/problem" />
+
+    <TextView
+        android:id="@+id/D"
+        android:layout_width="329dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="260dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/problem" />
+
+    <Button
+        android:id="@+id/up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:text="上一条"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/D" />
+
+    <Button
+        android:id="@+id/down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="下一条"
+        app:layout_constraintStart_toEndOf="@+id/up"
+        app:layout_constraintTop_toBottomOf="@+id/D" />
+
+    <Button
+        android:id="@+id/addAct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="添加"
+        app:layout_constraintStart_toEndOf="@+id/down"
+        app:layout_constraintTop_toBottomOf="@+id/D" />
+
+    <Button
+        android:id="@+id/destory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="结束"
+        app:layout_constraintStart_toEndOf="@+id/addAct"
+        app:layout_constraintTop_toBottomOf="@+id/D" />
+</androidx.constraintlayout.widget.ConstraintLayout>

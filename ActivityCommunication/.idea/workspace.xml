@@ -2,92 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45d60148-ea58-44ca-8c0f-beac20aa40de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ActivityCommunication.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LoginTest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LoginTest/app/src/main/java/com/example/logintest/Main2Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LoginTest/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/java/com/example/myapplication/Main2Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/java/com/example/myapplication/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/app/src/test/java/com/example/myapplication/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyApplication2/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/androidTest/java/com/example/userregister/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/main/java/com/example/userregister/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/app/src/test/java/com/example/userregister/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UserRegister/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidCalculator-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculator-master/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p22/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p23/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/com/example/activitycommunication/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/com/example/activitycommunication/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContextMenu/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ContextMenu/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MenuResource/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MenuResource/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MenuTest/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MenuTest/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../buttonDemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../buttonDemo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myapplication/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myapplication/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myapplication/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myapplication/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myapplication/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myapplication/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myapplication/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myapplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myapplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myapplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myapplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myapplication/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +32,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gen/com/example/activitycommunication/BuildConfig.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/example/activitycommunication/SubActivity1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -141,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/activitycommunication/ActivityCommunicationActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="46" />
+            <state relative-caret-position="76">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -175,7 +111,28 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ActivityCommunication" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ActivityCommunication" type="e9137016:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="ActivityCommunication" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ActivityCommunication" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="ActivityCommunication" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ActivityCommunication" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="activitycommunication" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,12 +170,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="android.sdk.path" value="$PROJECT_DIR$/../../sdk/android-sdk-windows" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="android.sdk.path" value="E:/sdk/android-sdk-windows" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LoginTest" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -246,28 +203,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1577" height="1016" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.2504931" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Build Variants" side_tool="true" />
-      <window_info id="Resources Explorer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Android Profiler" order="5" show_stripe_button="false" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -297,15 +254,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/activitycommunication/ActivityCommunicationActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="46" />
+        <state relative-caret-position="76">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/activitycommunication/SubActivity1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>

@@ -2,6 +2,7 @@ package com.example.internalfiledemo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void saveSharedPreferences(){
-        SharedPreferences sharedPreferences = getSharedPreferences(PREFERENCE_NAME,MODE);
+        @SuppressLint("WrongConstant") SharedPreferences sharedPreferences = getSharedPreferences(PREFERENCE_NAME,MODE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putString("Name",name.getText().toString());
         editor.putInt("Age",Integer.parseInt(age.getText().toString()));

@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
                     bindService(serviceIntent,mConnection, Context.BIND_AUTO_CREATE);
                     isBound=true;
                 }
+
             }
         });
         unbind.setOnClickListener(new View.OnClickListener() {
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 if(isBound){
                     isBound=false;
                     unbindService(mConnection);
+                    mathService=null;
                 }
             }
         });
@@ -53,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 long a = Math.round(Math.random()*100);
                 long b = Math.round(Math.random()*100);
                 long result = mathService.add(a,b);
-                String msg = a+"+"+b+"="+result;
+                String msg = String.valueOf(a)+"+"+String.valueOf(b)+"="+String.valueOf(result);
                 labelView.setText(msg);
             }
         });
